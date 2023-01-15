@@ -142,6 +142,16 @@ header{
     margin-left: 50px;
     margin-top: 20px;
 }
+.clients h1{
+    display: flex;
+    color: blue;
+
+}
+.clients img{
+    width: 150px;
+    height: 150px;
+}
+
 
 footer{
     height: 50px;
@@ -149,4 +159,40 @@ footer{
     padding-top: 20px;
     margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width:688px) {
+
+    .team{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+
+    .some-facts-images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .clients img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sponsors img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .quick-list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .our-features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
