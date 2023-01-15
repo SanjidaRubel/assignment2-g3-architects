@@ -1,0 +1,126 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: antiquewhite;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+
+    
+    
+   
+}
+.navbar ul li{
+    margin-left: 20px;
+    
+    
+    
+}
+.header-title{
+    text-align: center;
+}
+.btn{
+    background-color: darkgoldenrod;
+
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.banner{
+    background-repeat: no-repeat;
+}
+.banner img{
+    width: 700px;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.quick-list{
+    display: flex;
+
+}
+.quick-list div{
+    width: 50%;
+    
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 82px;
+}
+.team img{
+    width: 200px;
+    height: 200px;
+}
+
+.quicklist-details{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.color1{
+    color: dimgray;
+}
+.color3{
+    color: darkorange;
+}
+.our-features{
+    display: flex;
+    margin-top: 50px;
+}
+.feature-details{
+    width: 50%;
+}
+.our-features h1{
+    text-align: center;
+}
+.our-features p{
+    text-align: center;
+}
+.feature-details div{
+    width: 350px ;
+    padding: 10px;
+   margin-top: 10px;
+   box-shadow: 1px 1px 5px gray;
+   margin-left: 20px;
+}
+
+.feature-details img{
+    width: 400px;
+    height: 750px;
+}
+
+.some-facts div{
+    display: flex;
+}
+.some-facts-images div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gold;
+    margin-left: 50px;
+    
+    
+}
+.some-facts-images img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
